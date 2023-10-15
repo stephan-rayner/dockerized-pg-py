@@ -9,3 +9,4 @@ logs:
 
 cleanup: down
 	docker volume rm dockerized-pg-py_poc-data | true
+	docker rmi dockerized-pg-py_app | true
