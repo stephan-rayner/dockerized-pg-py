@@ -1,0 +1,3 @@
+psycopg2-binary==2.9.9
+netifaces==0.11.0
+nicegui==1.3.16
