@@ -3,6 +3,12 @@ version: '3.1'
 
 services:
 
+  app:
+    build: ./app
+    restart: unless-stopped
+    ports:
+      - 5050:5050
+
   db:
     image: postgres:16.0
     restart: always

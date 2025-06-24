@@ -3,7 +3,7 @@ from psycopg2 import sql
 from nicegui import ui
 
 POSTGRES_CONFIG = {
-    "host": "localhost",
+    "host": "db",
     "port": 5432,
     "database": "pet_vote_demo",
     "user": "postgres",
